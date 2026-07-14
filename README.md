@@ -20,21 +20,33 @@ STAGE 5 : CLEANUP
 
 
 **Instructions**
+
 Stage1
+
 Stage2
+
 Stage3
+
 Stage4
+
 Stage5
 
 
 
 **Architecture Diagrams**
-Stage1 - PNG
-Stage1 - PDF
-Stage2 - PNG
-Stage2 - PDF
-Stage3 - PNG
-Stage3 - PDF
-Stage4 - PNG
-Stage4 - PDF
 
+Stage1 - PNG
+
+Stage1 - PDF
+
+Stage2 - PNG
+
+Stage2 - PDF
+
+Stage3 - PNG
+
+Stage3 - PDF
+
+Stage4 - PNG
+
+Stage4 - PDF
