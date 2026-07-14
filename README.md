@@ -6,7 +6,7 @@ I will also go through the issues I faced in the build and how I worked through 
 Disclamer: This project was taken from a Adrian Cantrill demo, you canb find his youtube tutorial of this project [here](https://www.youtube.com/watch?v=MDMH_XXDbrI)
 
 
-This project includes 5 steps:
+# This project includes 5 steps:
 
 STAGE 1 : Configure Security & Create a CodeCommit Repo
 
@@ -20,7 +20,7 @@ STAGE 5 : CLEANUP
 
 
 
-**Instructions**
+# **Instructions**
 
 Stage1
 
