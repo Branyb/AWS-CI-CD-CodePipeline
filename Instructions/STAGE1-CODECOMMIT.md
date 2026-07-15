@@ -48,6 +48,13 @@ Locate the command for `Clone the repository` and copy it into your clipboard.
 In your terminal, move to the folder where you want the repo stored. Generally i create a `repos` folder in my home folder using the `mkdir ~/repos` command, then move into this folder with `cd ~/repos`  
 then run the clone command, which should look something like `ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/catpipeline-codecommit-XXX`  
 
+If you receive any errors like so: <img width="940" height="59" alt="image" src="https://github.com/user-attachments/assets/3bf74fd1-4fc0-4d87-96cf-be9323c3fb59" />
+
+You can download github:
+
+<img width="940" height="164" alt="image" src="https://github.com/user-attachments/assets/43fa89ee-e174-42e0-b8d6-a4607a7c2b9f" />
+
+
 ## Adding the demo code
 
 Download this file https://github.com/acantril/learn-cantrill-io-labs/raw/master/aws-codepipeline-catpipeline/01_LABSETUP/container.zip  
