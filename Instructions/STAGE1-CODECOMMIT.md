@@ -1,4 +1,4 @@
-<img width="940" height="740" alt="image" src="https://github.com/user-attachments/assets/edc8d089-ea33-48a0-bf72-8cfc10b9957d" /># STAGE 1 - CODE COMMIT
+# STAGE 1 - CODE COMMIT
 
 In stage 1, you will be creating and configuring a code commit repo as well as configuring access from your local machine/ EC2 instance.
 
