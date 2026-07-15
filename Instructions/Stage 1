@@ -1,6 +1,6 @@
- # STAGE 1 - CODE COMMIT
+# STAGE 1 - CODE COMMIT
 
-In this part of the advanced demo you will be creating and configuring a code commit repo as well as configuring access from your local machine, or in my case an EC2 instance.
+In this part of the advanced demo you will be creating and configuring a code commit repo as well as configuring access from your local machine.
 
 ## Generating an SSH key authenticate with codecommit
 
@@ -29,7 +29,7 @@ Save the file and run a `chmod 600 ~/.ssh/config` to configure permissions corre
 
 Test with `ssh git-codecommit.us-east-1.amazonaws.com` and if successful it should show something like this.  
 
-
+```
 You have successfully authenticated over SSH. You can use Git to interact with AWS CodeCommit. Interactive shells are not supported.Connection to git-codecommit.us-east-1.amazonaws.com closed by remote host.
 ```
 
@@ -60,5 +60,8 @@ git commit -m “container of cats”
 git push 
 
 ```
+
+Ok so now you have a codecommit repo, with some code and are ready to move to the next step. Before proceeding to the next step you should be familiar with the Elastic Container Repo, we will be using this to store a docker image which we create from this source. In my video courses I have a theory lesson on ECR coming up next, if you are using this text only version - you will need to 1) do your own ECR research or 2) already be familiar with ECR.
+
 
 
