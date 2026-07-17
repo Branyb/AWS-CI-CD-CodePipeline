@@ -132,6 +132,7 @@ phases:
 ```
 
 Like so 
+
 <img width="940" height="368" alt="image" src="https://github.com/user-attachments/assets/4f530163-a4d1-4029-af7c-3f22beed3e06" />
 
 Then add this locally, commit and stage
@@ -171,6 +172,11 @@ run a `aws ecr get-login-password --region us-east-1`, this command gives us log
 you will need to replace the placeholder with your AWS Account ID (with no dashes)
 
 `aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin ACCOUNTID_REPLACEME.dkr.ecr.us-east-1.amazonaws.com`
+
+This is the message you get if successful.
+
+<img width="940" height="83" alt="image" src="https://github.com/user-attachments/assets/a295ba58-dde4-4b98-9f89-83dde2c4c476" />
+
 
 Go to the ECR console (https://us-east-1.console.aws.amazon.com/ecr/repositories?region=us-east-1)  
 Repositories  
