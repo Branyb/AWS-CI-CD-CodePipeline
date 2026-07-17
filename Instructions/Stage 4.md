@@ -83,7 +83,7 @@ You should see the container of cats website - if it fits, i sits.. in a contain
 
 Like so
 
-<img width="940" height="83" alt="image" src="https://github.com/user-attachments/assets/94260045-38d9-4b04-a6c0-5e507f8a2f44" />
+<img width="940" height="522" alt="image" src="https://github.com/user-attachments/assets/16d8a182-91ea-4fc5-84b7-86cd2cd5df83" />
 
 
 
