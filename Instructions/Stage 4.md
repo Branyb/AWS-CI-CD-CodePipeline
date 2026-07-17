@@ -50,6 +50,10 @@ Pick `0.5vCPU` for task CPU and `1GB` for task memory.
 Select `ecsTaskExecutionRole` under task role and task execution role.  
 Click `Next` and then `Create`.  
 
+It should look like this 
+
+<img width="940" height="531" alt="image" src="https://github.com/user-attachments/assets/4ba6e2a5-7ab4-4fcc-a454-084d054e2e86" />
+
 
 ## DEPLOY TO ECS - CREATE A SERVICE
 Click Deploy then `Create Service`.
@@ -105,6 +109,40 @@ for `Image Definitions file` put `imagedefinitions.json`
 Click Done
 Click Save & Confirm
 
+Once the deploy stage is created, it should look like this
+
+<img width="940" height="425" alt="image" src="https://github.com/user-attachments/assets/4e0a888d-17aa-43e4-9fe5-7df0558fceda" />
+
+When creating the deploy stage I received this error:
+
+<img width="741" height="311" alt="image" src="https://github.com/user-attachments/assets/06d58e09-afe5-4f74-acef-10e27c1bb182" />
+
+In this case, I recreated the deploy stage after the build stage:
+
+<img width="940" height="330" alt="image" src="https://github.com/user-attachments/assets/65b03b3e-c424-46f9-98ac-13065cb8250a" />
+
+I then recedived this error:
+
+<img width="698" height="309" alt="image" src="https://github.com/user-attachments/assets/13c43a66-0551-4a6c-8b9c-41da43d9447f" />
+
+Checking the codebuild, I found syntax errors back on stage 3.
+
+<img width="940" height="97" alt="image" src="https://github.com/user-attachments/assets/d278023e-c268-4eb3-90b6-5e84ede1dec9" />
+
+I then went back and edited the code to create the file (changing code editor):
+
+That then worked, as Buildartif then worked<img width="940" height="76" alt="image" src="https://github.com/user-attachments/assets/769bf10f-bead-44b0-ab3e-a28559e98999" />
+
+ but I then got a different error:
+
+<img width="940" height="197" alt="image" src="https://github.com/user-attachments/assets/247f758b-907b-4166-a2ca-75ad5cf6163a" />
+
+This one required me editing the current IAM role, this was the added code:
+
+<img width="736" height="254" alt="image" src="https://github.com/user-attachments/assets/19909550-d4d8-45da-990e-279b27851aa4" />
+
+
+
 ## TEST
 
 in the local repo edit the `index.html` file and add ` - WITH AUTOMATION` to the `h1` line text.  Save the file.  
@@ -115,7 +153,7 @@ git add -A .
 git commit -m "test pipeline"
 git push
 ```
- 
+  
 watch the code pipeline console (https://us-east-1.console.aws.amazon.com/codesuite/codepipeline/pipelines/catpipeline/view?region=us-east-1)
 
 make sure each pipeline step completes
