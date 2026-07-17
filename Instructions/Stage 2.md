@@ -1,6 +1,6 @@
 # STAGE 2 - CODE BUILD
 
-Welcome to stage 2 of this demo where you will configure the Elastic Container Registry and use the codebuild service to build a docker container and push it into this registry.
+In stage 2, you will configure the Elastic Container Registry and use the codebuild service to build a docker container and push it into this registry.
 
 ## CREATE A PRIVATE REPOSITORY
 
