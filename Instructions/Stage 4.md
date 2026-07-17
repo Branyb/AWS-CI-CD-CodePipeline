@@ -79,7 +79,13 @@ Move to the load balancer console (https://us-east-1.console.aws.amazon.com/ec2/
 Pick the `catpipeline` load balancer  
 Copy the `DNS name` into your clipboard  
 Open it in a browser, ensuring it is using http:// not https://  
-You should see the container of cats website - if it fits, i sits
+You should see the container of cats website - if it fits, i sits.. in a container.
+
+Like so
+
+<img width="940" height="83" alt="image" src="https://github.com/user-attachments/assets/94260045-38d9-4b04-a6c0-5e507f8a2f44" />
+
+
 
 
 ## ADD A DEPLOY STAGE TO THE PIPELINE
