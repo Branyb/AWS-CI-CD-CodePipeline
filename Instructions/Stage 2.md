@@ -131,7 +131,8 @@ phases:
       - docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$IMAGE_TAG
 ```
 
-Like so <img width="940" height="368" alt="image" src="https://github.com/user-attachments/assets/4f530163-a4d1-4029-af7c-3f22beed3e06" />
+Like so 
+<img width="940" height="368" alt="image" src="https://github.com/user-attachments/assets/4f530163-a4d1-4029-af7c-3f22beed3e06" />
 
 Then add this locally, commit and stage
 
