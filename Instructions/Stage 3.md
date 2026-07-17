@@ -32,6 +32,16 @@ Move on
 Skip deploy Stage, and confirm  
 Create the pipeline
 
+If you get any issues like this 
+
+<img width="940" height="427" alt="image" src="https://github.com/user-attachments/assets/80d5bce5-a213-45e6-aae4-04d528d929b9" />
+
+
+It may be the region, swapping to correct region and re-running 
+
+<img width="455" height="206" alt="image" src="https://github.com/user-attachments/assets/a41a4048-1d16-40c5-a0fa-bbfeb477216d" />
+
+
 ## PIPELINE TESTS
 The pipeline will do an initial execution and it should complete without any issues.  
 You can click details in the build stage to see the progress...or wait for it to complete  
