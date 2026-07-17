@@ -22,32 +22,24 @@ STAGE 5 : CLEANUP
 
 # **Instructions**
 
-Stage1
+[Stage1](https://github.com/Branyb/AWS-CI-CD-CodePipeline/blob/5567aa1bd3f8e916517036b8e24cfa4da3fe38dc/Instructions/Stage%201.md)
 
-Stage2
+[Stage2](https://github.com/Branyb/AWS-CI-CD-CodePipeline/blob/5567aa1bd3f8e916517036b8e24cfa4da3fe38dc/Instructions/Stage%202.md)
 
-Stage3
+[Stage3](https://github.com/Branyb/AWS-CI-CD-CodePipeline/blob/5567aa1bd3f8e916517036b8e24cfa4da3fe38dc/Instructions/Stage%203.md)
 
-Stage4
+[Stage4](https://github.com/Branyb/AWS-CI-CD-CodePipeline/blob/5567aa1bd3f8e916517036b8e24cfa4da3fe38dc/Instructions/Stage%204.md)
 
-Stage5
+[Stage5](https://github.com/Branyb/AWS-CI-CD-CodePipeline/blob/main/Instructions/Stage%205.md)
 
 
 
 **Architecture Diagrams**
 
-Stage1 - PNG
+[Stage1](https://github.com/Branyb/AWS-CI-CD-CodePipeline/blob/5567aa1bd3f8e916517036b8e24cfa4da3fe38dc/Diagrams/Stage%201%20-%20CICD.png) - PNG
 
-Stage1 - PDF
+[Stage2](https://github.com/Branyb/AWS-CI-CD-CodePipeline/blob/5567aa1bd3f8e916517036b8e24cfa4da3fe38dc/Diagrams/Stage%202%20-%20CICD.png) - PNG
 
-Stage2 - PNG
+[Stage3](https://github.com/Branyb/AWS-CI-CD-CodePipeline/blob/5567aa1bd3f8e916517036b8e24cfa4da3fe38dc/Diagrams/Stage%203%20-%20CICD.png) - PNG
 
-Stage2 - PDF
-
-Stage3 - PNG
-
-Stage3 - PDF
-
-Stage4 - PNG
-
-Stage4 - PDF
+[Stage4](https://github.com/Branyb/AWS-CI-CD-CodePipeline/blob/5567aa1bd3f8e916517036b8e24cfa4da3fe38dc/Diagrams/Stage%204%20-%20CICD.png) - PNG
